@@ -1,2 +1,45 @@
 /Users/apple/Downloads/AI-APIKey-Query/frontend/oldpages
 /Users/apple/Downloads/AI-APIKey-Query/api-key-query
+
+# Python-related files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+
+# Streamlit and FastAPI logs or cache
+.streamlit/
+logs/
+
+# Docker-related files
+*.log
+docker-compose.override.yml
+.env
+Dockerfile*
+/backend/__pycache__/
+/frontend/__pycache__/
+
+# Byte-compiled Python files
+*.py[cod]
+
+# Jupyter notebooks checkpoints (if any)
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+
+# Node.js / npm cache (in case you add JavaScript files in the future)
+node_modules/
+
+# Build and distribution files
+*.egg-info/
+dist/
+build/
