@@ -1,3 +1,7 @@
+# This project is based on the original JavaScript version:
+# https://github.com/Ai-Yolo/OpenAI-APIKey-Query
+# Rewritten in Python using FastAPI and Streamlit by Claire
+
 from fastapi import FastAPI
 from routers import openai, huggingface, cohere, anthropic
 
