@@ -18,7 +18,10 @@ logs/
 *.log
 docker-compose.override.yml
 .env
-Dockerfile*
+Dockerfile.dev
+Dockerfile.local
+Dockerfile.prod 
+!Dockerfile
 /backend/__pycache__/
 /frontend/__pycache__/
 
